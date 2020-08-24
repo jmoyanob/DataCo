@@ -33,7 +33,7 @@ about:
   enable : true
   image : "images/backgrounds/mobiletrading.jpg"
   title : "ACERCA DE NOSOTROS"
-  content : "Estamos revolucionando las inversiones con datos alternativa. Los datos alternativos para tomar mejores decisiones de negocio están creciendo rapidamente, nadie entiende como integrar y trabajar estos datos como nosotros. Extraemos la data alternativa, procesamos y analizamos utilizando innovadores algoritmos que entregan invaluable insight para tomar mejores decisiones de negocio"
+  content : "Estamos revolucionando la toma de decisiones con datos alternativos. <br> En un mundo conectado y moderno los datos alternativos ayudan a tomar mejores decisiones de negocio, es necesario mantener la competitividad utilizando información que entregue nuevos insight. Nadie entiende de mejor manera la forma de integrar y trabajar los datos alternativos como nosotros, extraemos la data alternativa, procesamos y analizamos utilizando innovadores algoritmos que entregan invaluable insight para tomar mejores decisiones de negocio"
   # button
   button:
     enable : true
@@ -49,19 +49,19 @@ experience:
     - name : "Acceso a fuentes de Datos"
       company : "News, Social Media, Web Scraping"
       duration : 
-      content : "Recolección y acceso a diferentes datos estrructurados y no estructurados"
+      content : "Recolección y acceso a diferentes datos estrructurados y no estructurados de diferentes sitios web."
       
     # experience item loop
     - name : "Exploración y preparación de los datos"
       company : "EDA, Unsupervised learning"
       duration : 
-      content : "Utilizando código y diferentes framework, preparamos los datos para obtener importantes insight que te ayuden a tomar mejores decisiones"
+      content : "Utilizando código y diferentes framework, preparamos los datos para obtener importantes insight que te ayuden a tomar mejores decisiones."
       
     # experience item loop
     - name : "Automatización & Machine Learning"
       company : "Predecir patrones de grandes bases de datos"
       duration : 
-      content : "Utilizando innovadores algoritmos para encontrar patrones y automatizamos el envío de alertas en tiempo real."
+      content : "Utilizando innovadores algoritmos para encontrar patrones, automatizamos el envío de alertas en tiempo real y desarrollamos innovadores dashboard."
 
 
 ############################### Skill #################################
@@ -78,7 +78,7 @@ skill:
       parcentage : "100%"
       
     # skill item loop
-    - name : "Scraper"
+    - name : "Scraping"
       parcentage : "100%"
       
     # skill item loop
@@ -120,16 +120,11 @@ service:
 call_to_action:
   enable : true
   bg_image : "images/backgrounds/need-service.jpg"
-  title : "NECESITAS ALGUN SEVICIO?"
+  title : "¿NECESITAS ALGUN SEVICIO?"
   button:
     enable : true
     label : "Envianos un HOLA!"
-    link : "#contact"
-
-
-############################# portfolio ################################
-
-################################# Testimonial #########################33
+    link : "#contactk"
 
 ######################### funfacts #############################3
 funfacts:
@@ -159,4 +154,4 @@ funfacts:
 ############################## contact ###########################
 contact:
   enable : true
-  title : "HOLA!"
+  title : "¡HOLA!"
