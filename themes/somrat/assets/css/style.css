@@ -718,7 +718,7 @@ input:checked + label span:last-child {
 }
 
 .mobile-menu-logo img {
-  height: 55px;
+  height: 35px;
 }
 
 .mobile-menu-logo {
@@ -730,7 +730,7 @@ input:checked + label span:last-child {
 .mobile-menu a {
   text-decoration: none;
   color: white;
-  font-size: 29px;
+  font-size: 15px;
 }
 
 .mobile-menu-icons {
