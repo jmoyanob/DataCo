@@ -1,11 +1,12 @@
 ########################## hero area ##########################
 hero:
-  title : "Alternative Data"
+  title : "Data & Analytics"
 
   # animated text loop
   occupations:
-    - "Data Science"
-    - "Sentiment News"
+    - "Data Sciences"
+    - "Data Engineer"
+    - "Automatización"
     - "Analytics"
 
   # slider background image loop
@@ -24,8 +25,8 @@ hero:
 fullscreen_nav:
   enable : true
   bg_image : "images/backgrounds/trading.jpg"
-  first_name : "Alternative"
-  last_name : "DATA"
+  first_name : "Data"
+  last_name : "Analytics"
   
 
 ########################### About ##################################
@@ -33,7 +34,7 @@ about:
   enable : true
   image : "images/backgrounds/mobiletrading.jpg"
   title : "ACERCA DE NOSOTROS"
-  content : "Estamos revolucionando las inversiones con datos alternativa. Los datos alternativos para tomar mejores decisiones de negocio están creciendo rapidamente, nadie entiende como integrar y trabajar estos datos como nosotros. Extraemos la data alternativa, procesamos y analizamos utilizando innovadores algoritmos que entregan invaluable insight para tomar mejores decisiones de negocio"
+  content : "Estamos revolucionando la toma de decisiones en base a datos. <br> En un mundo conectado y moderno los datos ayudan a tomar mejores decisiones de negocio, es necesario mantener la competitividad utilizando información que entregue nuevos insight. Nadie entiende de mejor manera la forma de integrar y trabajar los datos como nosotros, extraemos la data de fuentes internas y externas, procesamos y analizamos utilizando innovadores algoritmos que entregan invaluable insight para tomar mejores decisiones de negocio"
   # button
   button:
     enable : true
@@ -43,25 +44,27 @@ about:
 ###########################3 Experience ##############################
 experience:
   enable : true
-  title : "DATA ALTERNATIVA"
+  title : "DATA PIPELINE"
   experience_list:
     # experience item loop
     - name : "Acceso a fuentes de Datos"
-      company : "News, Social Media, Web Scraping"
+      company : "Fuentes internas, Externas, News, Social Media, Web Scraping"
       duration : 
-      content : "Recolección y acceso a diferentes datos estrructurados y no estructurados"
+      content : "Recolección y acceso a diferentes datos estructurados y no estructurados de diferentes fuentes. 
+      Desarrollo de data pipeline y ETL."
       
     # experience item loop
     - name : "Exploración y preparación de los datos"
       company : "EDA, Unsupervised learning"
       duration : 
-      content : "Utilizando código y diferentes framework, preparamos los datos para obtener importantes insight que te ayuden a tomar mejores decisiones"
+      content : "Utilizando código y diferentes framework, preparamos los datos para obtener importantes insight que te ayuden a tomar mejores decisiones.
+      Creación de Data lake y Data Warehouse."
       
     # experience item loop
     - name : "Automatización & Machine Learning"
       company : "Predecir patrones de grandes bases de datos"
       duration : 
-      content : "Utilizando innovadores algoritmos para encontrar patrones y automatizamos el envío de alertas en tiempo real."
+      content : "Utilizando innovadores algoritmos para encontrar patrones, automatizamos el envío de alertas en tiempo real y desarrollamos innovadores dashboard."
 
 
 ############################### Skill #################################
@@ -78,7 +81,7 @@ skill:
       parcentage : "100%"
       
     # skill item loop
-    - name : "Scraper"
+    - name : "Data Engineer"
       parcentage : "100%"
       
     # skill item loop
@@ -120,16 +123,11 @@ service:
 call_to_action:
   enable : true
   bg_image : "images/backgrounds/need-service.jpg"
-  title : "NECESITAS ALGUN SEVICIO?"
+  title : "¿NECESITAS ALGUN SEVICIO?"
   button:
     enable : true
     label : "Envianos un HOLA!"
-    link : "#contact"
-
-
-############################# portfolio ################################
-
-################################# Testimonial #########################33
+    link : "#contactk"
 
 ######################### funfacts #############################3
 funfacts:
@@ -159,4 +157,4 @@ funfacts:
 ############################## contact ###########################
 contact:
   enable : true
-  title : "HOLA!"
+  title : "¡HOLA!"
