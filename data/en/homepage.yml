@@ -118,7 +118,6 @@ service:
     - name : "Data Science"
       image : "images/icons/mobile-app.png"
 
-
 ############################## call to action #########################
 call_to_action:
   enable : true
@@ -129,7 +128,57 @@ call_to_action:
     label : "Envianos un HOLA!"
     link : "#contact"
 
-######################### funfacts #############################3
+############################# portfolio ################################
+portfolio:
+  enable : true
+  title : "PARTNERS"
+  portfolio_list:
+    # portfolio item loop
+    - name : 
+      image : "images/logos/GCP.png"
+      date : 
+      category : "Cloud"
+    # portfolio item loop
+    - name : 
+      image : "images/logos/aws-amazon.jpg"
+      date : 
+      category : "Cloud"
+    # portfolio item loop
+    - name : 
+      image : "images/logos/tableau.jpg"
+      date : 
+      category : "Data Viz"  
+
+
+
+
+################################# Testimonial #########################33
+testimonial:
+  enable : true
+  title : "ALGUNOS CLIENTES"
+  testimonial_slider:
+    # slider item loop
+    - name : "Latam Airlines"
+      image : "images/logos/latam.jpeg"
+                  
+    # slider item loop
+    - name : "Banco Estado"
+      image : "images/logos/banco.png"
+      
+                
+    # slider item loop
+    - name : "Turner Latam"
+      image : "images/logos/TURNER.jpg"
+
+        # slider item loop
+    - name : "Television Nacional de Chile"
+      image : "images/logos/TVN.png"
+      
+        # slider item loop
+    - name : "Canal 13"
+      image : "images/logos/C13.png"
+
+######################### funfacts #############################
 funfacts:
   enable : true
   funfacts_list:
@@ -152,7 +201,6 @@ funfacts:
     - name : "REUNIONES ONLINE"
       image : "images/icons/coffee.png"
       count : "50"
-
 
 ############################## contact ###########################
 contact:
