@@ -152,15 +152,7 @@ portfolio:
 
 
 
-
-
-
-
-
 ################################# Testimonial #########################33
-
-
-
 
 testimonial:
   enable : true
@@ -173,17 +165,16 @@ testimonial:
     # slider item loop
     - name : "Banco Estado"
       image : "images/logos/banco.png"
-      
-                
+                  
     # slider item loop
     - name : "Turner Latam"
       image : "images/logos/TURNER.jpg"
 
-        # slider item loop
+    # slider item loop
     - name : "Television Nacional de Chile"
       image : "images/logos/TVN.png"
       
-        # slider item loop
+    # slider item loop
     - name : "Canal 13"
       image : "images/logos/C13.png"
 
